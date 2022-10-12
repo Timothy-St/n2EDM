@@ -1,0 +1,117 @@
+name = "smapper";
+githash = "f944579d4dd96b34181e2a1cf0a812e345782f4b-dirty";
+compileDate = "Aug 17 2021";
+compileTime = "12:28:22";
+swVersionMajor = 1;
+swVersionMinor = 0;
+EOLidentifier = "0xDEADBEEFDEADBEEF";
+columns : 
+{
+  column_000 : 
+  {
+    columnName = "timestamp";
+    columnDescription = "ns";
+    columnDataType = "uint64";
+  };
+  column_001 : 
+  {
+    columnName = "MotorPosPhi";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_002 : 
+  {
+    columnName = "CalMotorPosPhi";
+    columnDescription = "degree";
+    columnDataType = "double";
+  };
+  column_003 : 
+  {
+    columnName = "EncPosPhi";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_004 : 
+  {
+    columnName = "CalEncPosPhi";
+    columnDescription = "degree";
+    columnDataType = "double";
+  };
+  column_005 : 
+  {
+    columnName = "MotorPosRho";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_006 : 
+  {
+    columnName = "CalMotorPosRho";
+    columnDescription = "mm";
+    columnDataType = "double";
+  };
+  column_007 : 
+  {
+    columnName = "EncPosRho";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_008 : 
+  {
+    columnName = "CalEncPosRho";
+    columnDescription = "mm";
+    columnDataType = "double";
+  };
+  column_009 : 
+  {
+    columnName = "MotorPosZ";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_010 : 
+  {
+    columnName = "CalMotorPosZ";
+    columnDescription = "mm";
+    columnDataType = "double";
+  };
+  column_011 : 
+  {
+    columnName = "EncPosZ";
+    columnDescription = "steps";
+    columnDataType = "double";
+  };
+  column_012 : 
+  {
+    columnName = "CalEncPosZ";
+    columnDescription = "mm";
+    columnDataType = "double";
+  };
+  column_013 : 
+  {
+    columnName = "AIN1";
+    columnDescription = "V";
+    columnDataType = "double";
+  };
+  column_014 : 
+  {
+    columnName = "AIN2";
+    columnDescription = "V";
+    columnDataType = "double";
+  };
+  column_015 : 
+  {
+    columnName = "AIN3";
+    columnDescription = "V";
+    columnDataType = "double";
+  };
+  column_016 : 
+  {
+    columnName = "AIN4";
+    columnDescription = "V";
+    columnDataType = "double";
+  };
+};
+runNo = 155;
+cycNo = 2;
+firstTimeStamp = 1637910244579091302L;
+lastTimeStamp = 1637910909979094613L;
+lastWrite = 1637912254879115694L;
